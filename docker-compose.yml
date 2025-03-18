@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  node-app:
+    build: .
+    image: openjdk-app:1.0
+    ports:
+      - '9999:9999'
